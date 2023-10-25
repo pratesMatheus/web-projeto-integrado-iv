@@ -1,0 +1,49 @@
+#sobre, #curiosidade, #dicas {
+  background-image: url('../assets/images/cooking.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #301934;
+  height: 50vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sobre h1, #curiosidade h1, #dicas h1 {
+  color: #FFF;
+  font-size: 8rem;
+}
+
+/* Sobre */
+.text_and_img {
+  display: flex;
+  padding: 5px 20px;
+}
+
+#text {
+  padding: 5px 20px;
+}
+
+.text_and_img img {
+  padding-top: 20px;
+  width: 25%;
+}
+
+#mvv, #tips {
+  padding: 2rem 0;
+}
+
+#mvv details summary, #tips details summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  text-transform: uppercase;
+}
+
+main h2.final {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

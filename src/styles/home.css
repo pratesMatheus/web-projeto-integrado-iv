@@ -1,0 +1,138 @@
+#top_home {
+  background-image: url('../assets/images/homeLandingPage.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #301934;
+  height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 6px #E30B5C solid;
+
+  padding-bottom: 6px;
+}
+
+#top_home h1 {
+  color: #E30B5C; /* #7F00FF */
+  font-size: 8rem;
+  margin: 0;
+}
+
+#top_home h1 span {
+  color: #7F00FF; 
+}
+
+#top_home h2 {
+  color: #FFF;
+  margin: 0;
+}
+
+#top_home .flex_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#top_home .flex_container .slogan {
+  width: 700px;
+}
+
+#top_home .flex_container img {
+  width: 40%;
+}
+
+#top_home a {
+  background-color: #E30B5C;
+  color: #FFF;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+/* bolos */
+.box_search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50vw;
+
+  background-color: #FFF;
+  padding: 10px;
+  margin: 20px 0 0 25%;
+  border-radius: 3rem;
+  border: 2px #E30B5C solid;
+}
+
+.box_search input {
+  border: none;
+  width: 100vw;
+  outline: none;
+}
+
+#cakes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px 20px;
+  gap: 8px;
+}
+
+#cakes .cake_box {
+  background-color: #FFF;
+  border-radius: 1rem;
+}
+#cakes .cake_box:hover{
+  border: 2px #7F00FF solid;
+}
+
+.cake_box .cake_img {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.cake_box .cake_title, .cake_box .cake_info, .cake_box .cake_price{
+  padding: 0 0 0 10px;
+}
+
+.cake_box .cake_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 10px;
+}
+
+.cake_box .cake_info .cake_format_type span{
+  border: 2px #E30B5C solid;
+  border-radius: 2rem;
+  padding: 6px;
+
+}
+
+.cake_box .cake_price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #FFF;/* color: #00dd00; */
+}
+
+@media screen and (min-width: 576px) {
+  #cakes {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #cakes {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #cakes {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}

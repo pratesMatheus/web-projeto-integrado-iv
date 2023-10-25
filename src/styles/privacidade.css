@@ -1,0 +1,35 @@
+.sobre {
+  background-image: url('../assets/images/cooking.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #301934;
+  height: 50vh;
+  font-family: 'Dancing Script';
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 8rem;
+}
+
+details {
+  margin: 10px 20px 0;
+  padding: 5px 20px;
+
+  background-color: #FFF;
+  border: 2px #E30B5C solid;
+  border-radius: 17px;
+}
+
+main section h2 {
+  padding: 5px 20px;
+}
+
+main section p {
+  padding: 5px 20px;
+}
