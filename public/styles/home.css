@@ -1,3 +1,183 @@
+/* GLOBAL CSS CONFIG. PARA PUBLICAÇÃO*/
+:root {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #301934;
+  background-color: #F5DEB3;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  background-color: #301934;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #E30B5C;
+  border-radius: 999px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #E30B5C;
+  font-family: 'Dancing Script';
+}
+
+/* 
+p {
+  font-size: 62.50%;
+} */
+
+a {
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+header {
+  padding: 5px 20px;
+  background-color: #5C4033;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  width: 7.5%;
+  min-width: 50px;
+  height: auto;
+  will-change: filter;
+  transition: filter 500ms;
+}
+
+header .logo:hover {
+  filter: drop-shadow(0 0 2em #E30B5C);
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav_links li {
+  text-transform: uppercase;
+  display: flex;
+  padding: 0 .625rem 0 0;
+}
+
+li a {
+  color: #FFF;
+}
+
+li a:hover {
+  color: #E30B5C;
+}
+
+#faq h2{
+  padding: 5px 20px;
+}
+
+details {
+  margin: 0 20px;
+  padding: 5px 20px;
+
+  background-color: #FFF;
+  border: 2px #E30B5C solid;
+}
+summary {
+  all: unset;
+  cursor: pointer;
+  color: #7F00FF;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+
+  margin: 1.8rem 0 0 0;
+  padding: .625rem 20px;
+
+  background-color: #5C4033;
+  color: #FFF;
+}
+
+footer section {
+  display: flex;
+  flex-direction: row;
+}
+
+.esquerda {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3.5rem;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+}
+
+footer section div span {
+  display: flex;
+  align-items: center;
+}
+
+footer section div span p {
+  padding-left: 2rem;
+  word-wrap: break-word;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+
+}
+
+footer div ul {
+  list-style: none;
+}
+
+footer div ul li {
+  display: flex;
+  align-items: center;
+}
+
+footer div ul li a{
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+/* parte resposiva */
+@media only screen and (max-width: 600px) {
+  footer section {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1.8rem;
+  }
+}
+
+
+
 #top_home {
   background-image: url('../assets/images/homeLandingPage.png');
   background-repeat: no-repeat;
@@ -136,3 +316,4 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
+
