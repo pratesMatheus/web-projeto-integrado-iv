@@ -24,5 +24,5 @@ Acessar o projeto e bora codar o site...
 `cd web && npm install && npm run dev`
 
 ## Link do Projeto
-
-Não foi possível realizar o deploy do projeto!
+- **GitHub**: https://github.com/pratesMatheus/web-projeto-integrado-iv
+- **render.com**: https://web-uljg.onrender.com
